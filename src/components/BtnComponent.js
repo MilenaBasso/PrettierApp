@@ -5,6 +5,7 @@ import { styles } from "../styles/StyleSheet";
 export default function BtnComponent() {
   return (
     <View style={styles.container}>
+      {/* botão de login */}
       <TouchableOpacity
         style={styles.btn}
         onPress={() => console.log("Actually, I don't have a login page:(")}
@@ -13,10 +14,10 @@ export default function BtnComponent() {
         <Image
           source={require("../assets/images/button5.png")}
           style={styles.botimg}
-          
         />
       </TouchableOpacity>
 
+      {/* botão de cadastrar */}
       <TouchableOpacity
         style={styles.btn}
         onPress={() => console.log("U can't sign in here...")}
@@ -29,6 +30,7 @@ export default function BtnComponent() {
         />
       </TouchableOpacity>
 
+      {/* botão de imagem */}
       <TouchableOpacity
         style={styles.btn}
         onPress={() => console.log("Do u like cats??:D")}

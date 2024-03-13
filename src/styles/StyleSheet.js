@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
     padding: 50,
   },
 
+  //   estilização da pg home
   home: {
     flex: 1,
     width: "100%",
@@ -19,6 +20,7 @@ export const styles = StyleSheet.create({
     padding: 500,
   },
 
+  // estilo do input
   inputname: {
     backgroundColor: "white",
     width: 300,
@@ -32,9 +34,8 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
 
+  //   estilo das imagens dos bntcomponent
   botimg: {
-    marginTop:46,
-
-
+    marginTop: 46,
   },
 });
