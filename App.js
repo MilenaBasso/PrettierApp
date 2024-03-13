@@ -1,7 +1,7 @@
-import { StyleSheet, Text, View } from "react-native";
+import { TextInput, Text, View } from "react-native";
 import TxtComponent from "./src/components/TxtComponent";
-import InputComponent from "./src/components/InputComponent";
 import { styles } from "./src/styles/StyleSheet";
+import BtnComponent from "./src/components/BtnComponent";
 
 export default function App() {
   return (
@@ -13,10 +13,12 @@ export default function App() {
         <Text>We can be friends if u want to, My name is Boo</Text>
       </TxtComponent>
       <TxtComponent>
-        <Text>Hiii!! This is my page.</Text>
+        <Text>How are u doing?.</Text>
       </TxtComponent>
-
-      <InputComponent />
+      <TxtComponent>
+        <TextInput placeholder="What's your Name?" style={styles.inputname} />
+      </TxtComponent>
+      <BtnComponent/>
     </View>
   );
 }

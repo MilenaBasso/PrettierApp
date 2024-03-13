@@ -18,26 +18,15 @@ export const styles = StyleSheet.create({
     padding: 500,
   },
 
-  about: {
-    height: 300,
-    width: 300,
-    borderRadius: 300,
-    resizeMode: "cover",
-    source: "imagem",
-  },
-
   inputname: {
     backgroundColor: "white",
     width: 300,
-    fontSize: 20,
+    fontSize: 15,
     marginTop: 100,
-    alignItems: "center",
+    textAlign: "center",
   },
 
-  bgimg: {
-    flex: 1,
-    width: "100%",
-    height: "100%",
+  btn: {
     justifyContent: "center",
     alignItems: "center",
   },
