@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    padding: 50,
   },
 
   home: {
@@ -29,5 +30,11 @@ export const styles = StyleSheet.create({
   btn: {
     justifyContent: "center",
     alignItems: "center",
+  },
+
+  botimg: {
+    marginTop:46,
+
+
   },
 });

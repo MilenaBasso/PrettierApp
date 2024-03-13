@@ -18,7 +18,9 @@ export default function App() {
       <TxtComponent>
         <TextInput placeholder="What's your Name?" style={styles.inputname} />
       </TxtComponent>
-      <BtnComponent/>
+      <TxtComponent>
+        <BtnComponent />
+      </TxtComponent>
     </View>
   );
 }
