@@ -28,8 +28,6 @@ export const styles = StyleSheet.create({
 
   inputname: {
     backgroundColor: "white",
-    borderColor: "red",
-    borderWidth: 2,
     width: 300,
     fontSize: 20,
     marginTop: 100,
