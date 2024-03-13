@@ -8,6 +8,7 @@ export default function ComponentHome() {
 
   return (
     <View>
+      <Text>Hiii!! This is my page.</Text>
       <Text>We can be friends if u want to, My name is Boo</Text>
       <InputComponent />
     </View>
