@@ -11,7 +11,9 @@ export default function App() {
         <Text style={styles.texts}>Hiii!! This is my page.</Text>
       </TxtComponent>
       <TxtComponent>
-        <Text style={styles.texts}>We can be friends if u want to, My name is Boo</Text>
+        <Text style={styles.texts}>
+          We can be friends if u want to, My name is Boo
+        </Text>
       </TxtComponent>
       <TxtComponent>
         <Text style={styles.texts}>How are u doing?.</Text>
@@ -20,10 +22,11 @@ export default function App() {
       <TxtComponent>
         <TextInput placeholder="What's your Name?" style={styles.inputname} />
       </TxtComponent>
-      <br />
 
       {/* chamando a pg de botoes */}
-      <BtnComponent />
+      <TxtComponent>
+        <BtnComponent />
+      </TxtComponent>
     </View>
   );
 }

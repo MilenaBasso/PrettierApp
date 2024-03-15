@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     resizeMode: "cover",
     justifyContent: "center",
     alignItems: "center",
-    // padding: 500,
+    //* padding: 500,*//
   },
 
   // estilo do input
@@ -33,7 +33,6 @@ export const styles = StyleSheet.create({
   btn: {
     justifyContent: "center",
     alignItems: "center",
-    
   },
 
   //   estilo das imagens dos bntcomponent

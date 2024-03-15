@@ -35,7 +35,6 @@ export default function BtnComponent() {
         style={styles.btn}
         onPress={() => alert("Do u like cats??:D")}
       >
-        <Text>IMAGE</Text>
         <Image
           source={require("../assets/images/button.png")}
           style={styles.botimg}
