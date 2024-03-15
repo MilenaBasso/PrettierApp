@@ -8,7 +8,7 @@ export default function BtnComponent() {
       {/* botão de login */}
       <TouchableOpacity
         style={styles.btn}
-        onPress={() => console.log("Actually, I don't have a login page:(")}
+        onPress={() => alert("Actually, I don't have a login page:(")}
       >
         <Text>LOG IN</Text>
         <Image
@@ -20,7 +20,7 @@ export default function BtnComponent() {
       {/* botão de cadastrar */}
       <TouchableOpacity
         style={styles.btn}
-        onPress={() => console.log("U can't sign in here...")}
+        onPress={() => alert("U can't sign in here...")}
       >
         <Text>SIGN IN</Text>
         <Image
@@ -33,7 +33,7 @@ export default function BtnComponent() {
       {/* botão de imagem */}
       <TouchableOpacity
         style={styles.btn}
-        onPress={() => console.log("Do u like cats??:D")}
+        onPress={() => alert("Do u like cats??:D")}
       >
         <Text>IMAGE</Text>
         <Image

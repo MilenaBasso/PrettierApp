@@ -8,13 +8,13 @@ export default function App() {
     <View style={styles.container}>
       {/* 3 textos da home */}
       <TxtComponent>
-        <Text>Hiii!! This is my page.</Text>
+        <Text style={styles.texts}>Hiii!! This is my page.</Text>
       </TxtComponent>
       <TxtComponent>
-        <Text>We can be friends if u want to, My name is Boo</Text>
+        <Text style={styles.texts}>We can be friends if u want to, My name is Boo</Text>
       </TxtComponent>
       <TxtComponent>
-        <Text>How are u doing?.</Text>
+        <Text style={styles.texts}>How are u doing?.</Text>
       </TxtComponent>
 
       <TxtComponent>
